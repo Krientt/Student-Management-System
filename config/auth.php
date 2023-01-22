@@ -114,13 +114,13 @@ return [
         ],
         'visitors'=>[
             'providers'=>'visitors',
-            'table'=>'password_reset',
+            'table'=>'password_resets',
             'expire'=>60,
             'throttle'=>60,
         ],
         'teachers'=>[
             'providers'=>'teachers',
-            'table'=>'password_reset',
+            'table'=>'password_resets',
             'expire'=>60,
             'throttle'=>60,
         ]
